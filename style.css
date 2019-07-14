@@ -9,6 +9,9 @@
     padding: 20px 0;
     font-size:20px;
 }
+.inner:hover{
+    color:orange;
+}
 .link1{
     z-index:2;
 }
@@ -40,7 +43,7 @@ a{
     width:500px;
     height:500
 }
-.link1:hover,.link1:visited:hover{
+.link1:visited:hover{
     color:orange;
 }
 .link1:link,.link1:visited{
