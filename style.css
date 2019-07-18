@@ -1,5 +1,8 @@
+.first{
+    display:flex;
+}
 .inner{
-    display:inline-block;
+    flex:1;
     width:280px;
     height:50px;
     color:white;
@@ -49,12 +52,13 @@ a{
 .link1:link,.link1:visited{
     color:white;
 }
-.me{
+#img1{
     width:350px;
     height:300px;
     margin-left:100px;
     margin-top:50px;
     border-radius:60%;
+    flex:0.5;
 }
 .second{
     font-family: 'Oswald', sans-serif;
@@ -64,25 +68,16 @@ a{
     height:700px;
     width:100vw;
 }
-.name{
-    position:absolute;
-    top:20%;
-    left:65%;
+.detail{
+    display:flex;
+    flex-wrap: wrap;
 }
-.age{
-    position: absolute;
-    top:40%;
-    left:60%;
+#name{
+    flex:1;
+    display:flex;
 }
-.email{
-    position: absolute;
-    top:50%;
-    left:60%;
-}
-.mob{
-    position: absolute;
-    top:60%;
-    left:60%;
+.de{
+    margin:auto;
 }
 .par{
     font-size:30px;
