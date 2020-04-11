@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+     background-color:#12141B;
+}
+#name{
+    font-size: 40px;
+    color: #1772B9;
+}
+#header{
+    position: absolute;
+    margin-top:5%;
+    margin-left: 22%;
+    width: 100vw;
+}
+#design{
+    position: relative;
+    left:22%;
+    top:14%;
+    font-size: larger;
+    width: 100vw;
+    color:#1772B9;
+}
+#nameb{
+    position: absolute;
+    top:20%;
+    width: 100vw;
+}
+#namer
+{
+    position: relative;
+    left:45vw;
+    font-size: larger;
+    color: antiquewhite;
+}
+#namer span{
+    margin-left: 2%;
+    margin-bottom: -20px;
+}
+#pp{
+    border-radius: 50%;
+    width: 400px;
+    height:400px;
+    position: absolute;
+    left:20%;
+    top:30%;
+    background-color: #090A0E;
+}
+
+#about{
+    position: absolute;
+    font-size: 55px;
+    top:28%;
+    left:55%;
+    color: antiquewhite;
+}
+
+#me{
+    position: absolute;
+    font-size: 20px;
+    top:50%;
+    left:55%;
+    color:antiquewhite;
+    width:40%;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+a:hover{
+    color:#1772B9;
+}

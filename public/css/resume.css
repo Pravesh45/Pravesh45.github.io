@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color:#12141B;
+}
+hr{
+    border:0.5px solid #3F434E;
+    width:55%;
+    position: absolute;
+}
+#header{
+    position: absolute;
+    width:100vw;
+    left:20%;
+    top:18%;
+}
+#hname{
+    color:#1772B9;
+    font-size:40px;
+}
+#record{
+    width:55%;
+    position: absolute;
+    left:20%;
+    top:35%;
+}
+#circle{
+    background-color: #1772B9;
+    border-radius: 50%;
+    position: relative;
+    left:30%;
+    top:10%;
+    width:130px;
+    color:antiquewhite;
+    font-size:25px;
+    height:130px;
+}
+#cname
+{
+    position: absolute;
+    left:24%;
+    top:30%;
+}
+#value
+{
+    position: relative;
+    color:antiquewhite;
+    left:17%;
+    font-size: 20px;
+}
+#value1
+{
+    position: relative;
+    color:antiquewhite;
+    left:17%;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: "\2022";
+    font-weight: bold;
+    color:#1772B9;
+}
+
+#cname1
+{
+    position: relative;
+    top:32%;
+    left:10%;
+}
+#inside{
+    width:100%;
+    position: relative;
+    left:2%;
+}
+#namer{
+    position: relative;
+    top:35%;
+    font-size:20px;
+}
+#namer span{
+    margin-left: 5px;
+}
+a{
+    text-decoration: none !important;
+    color:antiquewhite;
+}
+a:hover{
+    color:#1772B9;
+}
+#record_row{
+    height:250px;
+}
+#cname2
+{
+    font-size:21px;
+    position: relative;
+    left:14%;
+    top:5%;
+}
+#cname3
+{
+    font-size:21px;
+    position: relative;
+    left:10%;
+    top:15%;
+}

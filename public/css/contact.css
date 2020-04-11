@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color:#12141B;
+}
+hr{
+    border:0.5px solid #3F434E;
+    width:55%;
+    position: absolute;
+}
+.fa-instagram{
+    font-size:65px;
+    transition:all 450ms;
+    margin-right: 20px;
+}
+.fa-envelope
+{
+    font-size: 65px;
+    transition: all 450ms;
+    margin-left: 30px;
+
+}
+.fa-phone-square-alt
+{
+    font-size: 65px;
+    transition: all 450ms;
+    margin-left: 30px;
+}
+.icons
+{
+    position: absolute;
+    left:35%;
+    top:57%;
+}
+.fa-facebook-square{
+    font-size:65px;
+    margin-left: 20px;
+    transition:all 500ms;
+}
+.fa-instagram:hover,.fa-facebook-square:hover,.fa-envelope:hover,.fa-phone-square-alt:hover{
+transform:translateY(-20px);
+}
+.insta:link,.fb:link{
+    color:white;
+}
+.fb:visited,.insta:visited{
+    color:white;
+}
+#header{
+    position: absolute;
+    width:100vw;
+    left:20%;
+    top:18%;
+}
+#hname{
+    color:#1772B9;
+    font-size:40px;
+}
+a{
+    text-decoration: none !important;
+    color:antiquewhite;
+}
+a:hover{
+    color: #1772B9;
+}
+
+hr{
+    border:0.5px solid #3F434E;
+    width:55%;
+    position: absolute;
+}
+
+#namer{
+    position: relative;
+    top:35%;
+    font-size:20px;
+}
+#namer span{
+    margin-left: 5px;
+}

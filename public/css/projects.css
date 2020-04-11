@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color:#12141B;
+}
+.record
+{
+    position: absolute;
+    left:22%;
+    top:35%;
+    width:54%;
+}
+#inside{
+    width:100%;
+    position: relative;
+}
+#header{
+    position: absolute;
+    width:100vw;
+    left:20%;
+    top:18%;
+}
+#hname{
+    color:#1772B9;
+    font-size:40px;
+}
+a{
+    text-decoration: none !important;
+    color:antiquewhite;
+}
+a:hover{
+    color: #1772B9;
+}
+
+hr{
+    border:0.5px solid #3F434E;
+    width:55%;
+    position: absolute;
+}
+
+#namer{
+    position: relative;
+    top:35%;
+    font-size:20px;
+}
+#namer span{
+    margin-left: 5px;
+}
+#about
+{
+    color:#1772B9;
+    position: relative;
+}
