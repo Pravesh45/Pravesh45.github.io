@@ -10,13 +10,14 @@ html, body {
 .record
 {
     position: absolute;
-    left:22%;
+    left:20%;
     top:35%;
     width:54%;
+    margin-top:5%;
     color:antiquewhite;
 }
 #inside{
-    width:100%;
+    width:170%;
     position: relative;
 }
 #header{
@@ -55,4 +56,14 @@ hr{
 {
     color:#1772B9;
     position: relative;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    #header,.record{
+        left:3%;
+    }
+    hr{
+        width:75%;
+    }
 }

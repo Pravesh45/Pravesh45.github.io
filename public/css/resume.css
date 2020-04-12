@@ -52,6 +52,14 @@ hr{
     left:17%;
     font-size: 20px;
 }
+#svalue
+{
+    position: relative;
+    color:antiquewhite;
+    left:17%;
+    font-size: 20px;
+    width:90%;
+}
 #value1
 {
     position: relative;
@@ -95,7 +103,7 @@ a:hover{
     color:#1772B9;
 }
 #record_row{
-    height:250px;
+    height:200%;
 }
 #cname2
 {
@@ -110,4 +118,21 @@ a:hover{
     position: relative;
     left:10%;
     top:15%;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    #header,#record{
+        left:0%;
+    }
+    #record{
+        width: 85%;
+    }
+    hr{
+        width: 75%;
+    }
+    #inside{
+        left:5%;
+        width:160%;
+    }
 }

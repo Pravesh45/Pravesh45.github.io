@@ -13,22 +13,22 @@ hr{
     position: absolute;
 }
 .fa-instagram{
-    font-size:65px;
+    font-size:400%;
     transition:all 450ms;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .fa-envelope
 {
-    font-size: 65px;
+    font-size: 400%;
     transition: all 450ms;
-    margin-left: 30px;
+    margin-right: 10px;
 
 }
 .fa-phone-square-alt
 {
-    font-size: 65px;
+    font-size: 400%;
     transition: all 450ms;
-    margin-left: 30px;
+    margin-right: 10px;
 }
 .icons
 {
@@ -37,8 +37,8 @@ hr{
     top:57%;
 }
 .fa-facebook-square{
-    font-size:65px;
-    margin-left: 20px;
+    font-size:400%;
+    margin-right: 10px;
     transition:all 500ms;
 }
 .fa-instagram:hover,.fa-facebook-square:hover,.fa-envelope:hover,.fa-phone-square-alt:hover{
@@ -81,4 +81,19 @@ hr{
 }
 #namer span{
     margin-left: 5px;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    #header,#main{
+        left:0%;
+    }
+
+    .icons{
+        left:10%;
+
+    }
+    hr{
+        width: 75%;
+    }
 }
