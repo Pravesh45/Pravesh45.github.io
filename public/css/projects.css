@@ -57,6 +57,9 @@ hr{
     color:#1772B9;
     position: relative;
 }
+p,li{
+    font-size:23px;
+}
 
 @media only screen and (max-device-width: 480px)
 {
@@ -65,5 +68,8 @@ hr{
     }
     hr{
         width:75%;
+    }
+    .value{
+        width:150%;
     }
 }
