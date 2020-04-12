@@ -55,7 +55,7 @@ body{
 }
 
 #about{
-    font-size: 55px;
+    font-size: 250%;
     color: antiquewhite;
     color: #1772B9;
 }
@@ -83,7 +83,12 @@ a:hover{
     #pp{
         top:20%;
         position: relative;
+        width:200px;
+        height:200px;
         left:15%;
+    }
+    #adiv{
+        margin-top: 100px;
     }
     #header,.main{
         left:0%;
