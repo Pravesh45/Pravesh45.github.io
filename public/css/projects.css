@@ -61,6 +61,13 @@ p,li{
     font-size:23px;
 }
 
+@media only screen and (max-device-width: 820px)
+{
+    .record{
+        top:40%;
+    }
+}
+
 @media only screen and (max-device-width: 480px)
 {
     #header,.record{

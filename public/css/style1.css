@@ -78,6 +78,14 @@ a:hover{
     margin-bottom: 10%;
 }
 
+@media only screen and (max-device-width: 820px)
+{
+    .main{
+        top:60%;
+    }
+}
+
+
 @media only screen and (max-device-width: 480px)
 {
     #pp{
@@ -87,10 +95,16 @@ a:hover{
         height:200px;
         left:15%;
     }
+
     #adiv{
         margin-top: 100px;
     }
+
     #header,.main{
         left:0%;
+    }
+
+    .main{
+        top:34%;
     }
 }

@@ -120,6 +120,13 @@ a:hover{
     top:15%;
 }
 
+@media only screen and (max-device-width: 820px)
+{
+    #record{
+        top:38%;
+    }
+}
+
 @media only screen and (max-device-width: 480px)
 {
     #header,#record{
